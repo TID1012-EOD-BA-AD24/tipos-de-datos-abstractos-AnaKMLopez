@@ -34,6 +34,7 @@ public class AppRational{
         System.out.println("¿Son Iguales? ="+r1+"== "+r2+r1.equal(r1,r2)); 
         
 
+        consola.close();
     }
 
 }
