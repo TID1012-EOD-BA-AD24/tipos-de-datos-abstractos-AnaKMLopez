@@ -34,14 +34,14 @@ public class Rational{
 
     public Rational add(Rational a, Rational b){
         Rational x = new Rational();
-        x.setNumerador(a.getDenominador() * b.getNumerador() + b.getDenominador()* a.getNumerador());
+        x.setNumerador(a.getDenominador() * b.getNumerador() + b.getDenominador() * a.getNumerador());
         x.setDenominador(a.getDenominador() * b.getDenominador());
         return x;
     }
     public Rational add(Rational a){
         Rational x = new Rational();
-        x.setNumerador(this.getNumerador()*a.getDenominador()+this.getDenominador()*a.getNumerador());
-        x.setDenominador(this.getDenominador()*a.getDenominador());
+        x.setNumerador(this.getNumerador() * a.getDenominador() + this.getDenominador() *a.getNumerador());
+        x.setDenominador(this.getDenominador() * a.getDenominador());
         return x;
     }
 
@@ -54,8 +54,8 @@ public class Rational{
     public Rational mult(Rational a){
        //coloca aquí el código faltante
        Rational x = new Rational();
-       x.setNumerador(this.getNumerador()*a.getNumerador());
-       x.setDenominador(this.getDenominador()*a.getDenominador());
+       x.setNumerador(this.getNumerador() * a.getNumerador());
+       x.setDenominador(this.getDenominador() * a.getDenominador());
        return x;
     }
     public boolean equal(Rational a,Rational b){
